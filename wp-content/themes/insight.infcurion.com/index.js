@@ -1,0 +1,3 @@
+(function(){'use strict';$('.js_slider').slick({arrows:false,dots:true,infinite:true,swipe:true,draggable:true,swipeToSlide:true,variableWidth:false,});var headerFormOpen=function(){$('.js_header_form').addClass('is_open');}
+var headerFormClose=function(){$('.js_header_form').removeClass('is_open');}
+var bindEvents=function(){$('.js_header_search').on('click',headerFormOpen);$('.js_header_close').on('click',headerFormClose);};var initialize=function(){bindEvents();};initialize();})();
