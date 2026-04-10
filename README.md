@@ -1,0 +1,1 @@
+# infcurion_insight.infcurion-static
