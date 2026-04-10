@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?><!-- sitemap-generator-url='http://www.arnebrachhold.de/' sitemap-generator-version='4.1.23' -->
-<!-- generated-on='2026.4.10 3:01 PM' -->
+<!-- generated-on='2026.4.10 3:41 PM' -->
 <sitemapindex xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/siteindex.xsd' xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>	<sitemap>
 		<loc>./sitemap-misc.xml</loc>
-		<lastmod>2026-04-10T14:58:27+00:00</lastmod>
+		<lastmod>2026-03-24T07:09:34+00:00</lastmod>
 	</sitemap>
 	<sitemap>
 		<loc>./category-sitemap.xml</loc>
-		<lastmod>2026-04-10T14:58:27+00:00</lastmod>
+		<lastmod>2026-03-24T07:09:34+00:00</lastmod>
 	</sitemap>
 	<sitemap>
 		<loc>./post-sitemap.xml</loc>
-		<lastmod>2026-04-10T14:58:27+00:00</lastmod>
+		<lastmod>2026-03-24T07:09:34+00:00</lastmod>
 	</sitemap>
-</sitemapindex><!-- Request ID: ed22f938b733e4c406bf1e20fa25cc5a; Queries for sitemap: 5; Total queries: 64; Seconds: 0; Memory for sitemap: 1KB; Total memory: 85.5MB -->
+</sitemapindex><!-- Request ID: e0082780dd6e7731a976739261384414; Queries for sitemap: 5; Total queries: 64; Seconds: 0.01; Memory for sitemap: 1KB; Total memory: 83.5MB -->
