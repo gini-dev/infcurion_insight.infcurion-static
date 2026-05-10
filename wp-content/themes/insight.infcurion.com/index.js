@@ -1,0 +1,6 @@
+(function(){'use strict';var ensureJquery4CompatForSlick=function(){if(typeof $==='undefined'){return;}
+if(typeof $.type!=='function'){$.type=function(obj){if(obj==null){return String(obj);}
+return Object.prototype.toString.call(obj).slice(8,-1).toLowerCase();};}
+if(typeof $.proxy!=='function'){$.proxy=function(fn,context){if(typeof fn!=='function'){return undefined;}
+var args=Array.prototype.slice.call(arguments,2);return function(){return fn.apply(context||this,args.concat(Array.prototype.slice.call(arguments)));};};}};var initializeSlick=function(){ensureJquery4CompatForSlick();if(!$.fn||typeof $.fn.slick!=='function'||!$('.js_slider').length){return;}
+try{$('.js_slider').slick({arrows:false,dots:true,infinite:true,swipe:true,draggable:true,swipeToSlide:true,variableWidth:false,});}catch(e){}};var headerFormOpen=function(){$('.js_header_form').addClass('is_open');};var headerFormClose=function(){$('.js_header_form').removeClass('is_open');};var bindEvents=function(){$(document).on('click','.js_header_search',headerFormOpen);$(document).on('click','.js_header_close',headerFormClose);};var initialize=function(){bindEvents();initializeSlick();};$(initialize);})();
