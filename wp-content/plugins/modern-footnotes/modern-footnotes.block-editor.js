@@ -1,2 +1,0 @@
-(function(wp){var{__}=wp.i18n;var ModernFootnotesButton=function(props){return wp.element.createElement(wp.blockEditor.RichTextToolbarButton,{icon:wp.element.createElement('span',{'className':'modern-footnotes-admin-button'}),title:__('Add a Footnote','modern-footnotes'),onClick:function(){props.onChange(wp.richText.toggleFormat(props.value,{type:'modern-footnotes/footnote'}));},isActive:props.isActive,});}
-wp.richText.registerFormatType('modern-footnotes/footnote',{title:'Modern Footnote',tagName:'mfn',className:null,edit:ModernFootnotesButton});})(window.wp);
