@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?><!-- sitemap-generator-url='http://www.arnebrachhold.de/' sitemap-generator-version='4.1.23' -->
-<!-- generated-on='2026.5.10 7:46 AM' -->
+<!-- generated-on='2026.5.11 1:05 AM' -->
 <urlset xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd' xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>	<url>
 		<loc>https://infcurion-insight-infcurion-static.pages.dev/category/api/</loc>
 		<lastmod>2023-11-07T10:57:46+00:00</lastmod>
@@ -26,7 +26,7 @@
 	</url>
 	<url>
 		<loc>https://infcurion-insight-infcurion-static.pages.dev/category/payment/</loc>
-		<lastmod>2024-12-25T13:03:31+00:00</lastmod>
+		<lastmod>2026-05-11T10:05:00+00:00</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>1.0</priority>
 	</url>
@@ -36,4 +36,4 @@
 		<changefreq>daily</changefreq>
 		<priority>1.0</priority>
 	</url>
-</urlset><!-- Request ID: 6dfa2eae1c2a7d045f12febcc8dcf105; Queries for sitemap: 13; Total queries: 75; Seconds: 0; Memory for sitemap: 1KB; Total memory: 85.5MB -->
+</urlset><!-- Request ID: 5b6422bb6e98af4197e4f73bf424ccfe; Queries for sitemap: 12; Total queries: 74; Seconds: 0.01; Memory for sitemap: 1KB; Total memory: 85.5MB -->
