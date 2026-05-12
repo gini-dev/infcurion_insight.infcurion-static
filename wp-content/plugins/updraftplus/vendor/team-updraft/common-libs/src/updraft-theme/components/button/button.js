@@ -1,5 +1,0 @@
-import{tu_theme_get_template}from"../../helpers/tu-get-template";import{TUHTMLElement}from"../../helpers/tu-html-element";class TUButton extends TUHTMLElement{static observedAttributes=["disabled","icon-left","icon-right","variant","size"];constructor(){super();}
-attributeChangedCallback(name,oldValue,newValue){const innerButton=this.querySelector('button');if(innerButton){innerButton.setAttribute(name,newValue);}}
-render(){const attributes={innerContent:this.innerText.trim(),iconLeft:this.getAttribute("icon-left"),iconRight:this.getAttribute("icon-right"),};this.innerHTML=tu_theme_get_template('button-templates-template',attributes);const innerButton=this.querySelector('button');if(innerButton){for(const attr of this.attributes){innerButton.setAttribute(attr.name,attr.value);}}}
-connectedCallback(){super.connectedCallback();}}
-customElements.define("tu-button",TUButton);
