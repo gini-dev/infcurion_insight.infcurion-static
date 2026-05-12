@@ -1,0 +1,1 @@
+{"selector":".searchform__sp, .searchform__pc","threshold":"0.3","useExtendedSearch":false,"ignoreLocation":false,"maxResults":10,"weights":{"title":10,"content":2,"excerpt":1}}
